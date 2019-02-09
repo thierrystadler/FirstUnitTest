@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.Testing.FirstUnitTest.Library", "ZbW.Testing.FirstUnitTest.Library\ZbW.Testing.FirstUnitTest.Library.csproj", "{635DBEAF-8A9D-43F8-BA35-D87539965FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.Testing.FirstUnitTest.Library.UnitTests", "ZbW.Testing.FirstUnitTest.Library.UnitTests\ZbW.Testing.FirstUnitTest.Library.UnitTests.csproj", "{13A5D5A0-8A39-49A5-87CB-6FA2ACBD670B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{635DBEAF-8A9D-43F8-BA35-D87539965FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635DBEAF-8A9D-43F8-BA35-D87539965FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635DBEAF-8A9D-43F8-BA35-D87539965FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635DBEAF-8A9D-43F8-BA35-D87539965FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A5D5A0-8A39-49A5-87CB-6FA2ACBD670B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A5D5A0-8A39-49A5-87CB-6FA2ACBD670B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A5D5A0-8A39-49A5-87CB-6FA2ACBD670B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A5D5A0-8A39-49A5-87CB-6FA2ACBD670B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02B1FBA1-D0CA-434C-8278-B691F45187EE}
+	EndGlobalSection
+EndGlobal
