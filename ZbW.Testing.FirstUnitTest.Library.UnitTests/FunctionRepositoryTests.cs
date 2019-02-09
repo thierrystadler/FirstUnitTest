@@ -46,12 +46,28 @@ namespace ZbW.Testing.FirstUnitTest.Library.UnitTests
             Assert.That(result, Is.True);
         }
 
+        [Test]
+        public void TestAreNumbersInString1()
+        {
+            var sut = new FunctionRepository();
+            var result = sut.AreNumbersInString("asdfadsfasdf");
+            Assert.That(result, Is.False);
+        }
+
         [Test, Category("short")]
         public void IsIntValid()
         {
             var sut = new FunctionRepository();
             var result = sut.IsIntValid("435435");
             Assert.That(result, Is.True);
+        }
+
+        [Test, Category("short")]
+        public void IsIntValid1()
+        {
+            var sut = new FunctionRepository();
+            var result = sut.IsIntValid("asdf");
+            Assert.That(result, Is.False);
         }
     }
 }
